@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creators - The 2025 Exhibition</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+    }
+
+    header h1 {
+      margin: 0 0 1em;
+      font-size: 2em;
+      color: #EFA55C;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+      margin-top: 1em;
+    }
+
+    .team-member {
+      text-align: center;
+      max-width: 180px;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #EFA55C;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      
+    }
+
+    .team-member h3 {
+      margin: 0.5em 0 0 0;
+      font-size: 1.1em;
+      color: #F5F5F5;
+    }
+
+    .team-member p {
+      margin: 0.2em 0 0;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    #description {
+      background-color: #111;
+      color: #f5f5f5;
+      padding: 3em 2em;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    #description h2 {
+      color: #EFA55C;
+      margin-bottom: 1em;
+    }
+
+    a.back-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: linear-gradient(to right, #EFA55C, #5E995E);
+      color: white;
+      padding: 0.8em 1.2em;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    a.back-btn:hover {
+      transform: scale(1.05);
+    }
+
+    @media(max-width:600px){
+      .team-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Meet the Team</h1>
+  <div class="team-container">
+    <!-- Mentor First -->
+    <div class="team-member">
+      <a href="https://www.linkedin.com/in/dipan-bandyopadhyay-129687298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+        <img src="assets/dipan.jpg" alt="Dipan Bandyopadhyay">
+      </a>
+      <h3>Dipan Bandyopadhyay</h3>
+      <p>Concept & Mentor</p>
+    </div>
+
+    <!-- Debargha Second -->
+    <div class="team-member">
+      <a href="https://www.linkedin.com/in/debargha-sarkar-72575937a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+        <img src="assets/debargha.jpg" alt="Debargha Sarkar">
+      </a>
+      <h3>Debargha Sarkar</h3>
+      <p>Basic Architect</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://github.com/Soumya-Chakraborty" target="_blank">
+        <img src="assets/soumya.jpg" alt="Soumya Chakraborty">
+      </a>
+      <h3>Soumya Chakraborty</h3>
+      <p>Backend Developer</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://github.com/koushikdutta07" target="_blank">
+        <img src="assets/koushik.jpg" alt="Koushik Dutta">
+      </a>
+      <h3>Koushik Dutta</h3>
+      <p>Chatbot & Web Enhancement</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://github.com/TitashMajumder" target="_blank">
+        <img src="assets/titash.jpg" alt="Titash Majumder">
+      </a>
+      <h3>Titash Majumder</h3>
+      <p>UI Touchups</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://github.com/anulekha305" target="_blank">
+        <img src="assets/anulekha.jpg" alt="Anulekha Koley">
+      </a>
+      <h3>Anulekha Koley</h3>
+      <p>Science Project Section</p>
+    </div>
+    <div class="team-member">
+      <a href="https://github.com/swapnadeeppodder" target="_blank"> 
+        <img src="assets/swapnadeep.jpg" alt="Swapnadeep Podder"> 
+      </a>
+      <h3>Swapnadeep Podder</h3>
+      <p>Frontend Contributions</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://github.com/Soumili02" target="_blank">
+        <img src="assets/soumili.jpg" alt="Soumili Kayal">
+      </a>
+      <h3>Soumili Kayal</h3>
+      <p>Frontend Contributions</p>
+    </div>
+
+    <div class="team-member">
+      <a href="https://www.linkedin.com/in/sagnika-sinha-b9181b374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+        <img src="assets/sagnika.jpg" alt="Sagnika Sinha">
+      </a>
+      <h3>Sagnika Sinha</h3>
+      <p>Stall Information Specialist</p>
+    </div>
+  </div>
+</header>
+
+<section id="description">
+  <h2>About the Team</h2>
+  <p>
+    <span class="name">Dipan Bandyopadhyay</span> provided the original concept, vision, and oversight. As mentor, he guided the project’s scope, ensured academic alignment, and helped the team maintain a professional standard throughout the development cycle.<br><br>
+    <span class="name">Debargha Sarkar</span> was responsible for the architectural foundation of the platform. He developed the core backbone, block pages, cultural gallery, and the initial version of the chatbot, integrating design and functionality into a cohesive ecosystem.<br><br>
+
+    <span class="name">Koushik Dutta</span> enhanced the chatbot by extending Debargha’s base design, implementing smarter response handling and modernizing its interaction flow. He also contributed meaningful refinements to improve the overall usability of the website.<br><br>
+   
+    <span class="name">Anulekha Koley</span> managed the Science Project showcase section. She structured content for clarity, ensuring projects were represented in an accessible yet professional way, reflecting the exhibition’s educational purpose.<br><br>
+
+    <span class="name">Swapnadeep Podder</span> contributed to front-end development by enhancing layout structure, responsiveness, and design consistency, ensuring a polished, accessible, and user-friendly interface that improves overall usability.<br><br>
+
+    <span class="name">Soumili Kayal</span> handled front-end refinements, improving layout consistency and enhancing visual polish. Her contributions ensured the site remained responsive and intuitive across devices.<br><br>
+
+    <span class="name">Soumya Chakraborty</span> led backend development, creating robust server-side functionality to handle content organization, data flow, and smooth system operation.<br><br>
+
+    <span class="name">Titash Majumder</span> applied interface touch-ups and fine-grained adjustments, ensuring that small details—from alignment to typography—contributed to a seamless presentation.<br><br>
+
+    <span class="name">Sagnika Sinha</span> contributed accurate stall information, centralizing data for the exhibition map and ensuring visitors could navigate effortlessly.<br><br>
+
+
+    Together, this diverse team—under the guidance of <span class="name">Dipan Bandyopadhyay</span>—transformed an idea into a functional, professional exhibition platform that merges design, technology, and information management.
+  </p>
+</section>
+
+<style>
+  #description .name {
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #EFA55C;  /* golden accent */
+    text-shadow: 0 0 6px rgba(239,165,92,0.3);
+    transition: color 0.2s, text-shadow 0.2s;
+  }
+
+  #description .name:hover {
+    color: #FFD580; /* lighter gold on hover */
+    text-shadow: 0 0 10px rgba(255, 213, 128, 0.6);
+    cursor: pointer;
+  }
+</style>
+
+</body>
+</html>
